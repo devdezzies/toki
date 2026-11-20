@@ -1,0 +1,6 @@
+== toki-skin-light
+  second difference at 285.50°: core of 83 px in 351,274,351,315
+pops, second difference at 0.1° over a full turn: 28 cores of 6+ px · 24 small cores to read: 19.40° 1 px in 254.5,393,254.5,393 · 125.20° 2 px in 459,264,459,264.5 · 248.20° 1 px in 470.5,389,470.5,389 · 248.40° 1 px in 470,389,470,389 · 249.10° 1 px in 468.5,390.5,468.5,390.5 · 249.50° 1 px in 467.5,391,467.5,391 · 250.60° 1 px in 465,392.5,465,392.5 · 250.80° 1 px in 464.5,393,464.5,393 · 251.00° 1 px in 464,393.5,464,393.5 · 251.20° 1 px in 463.5,394,463.5,394 · 251.40° 1 px in 463,394.5,463,394.5 · 284.90° 1 px in 381,397,381,397
+  first core dumped to toki/shots/pops-toki-skin-light/pops-core-{a,b,c,e}.png
+console: clean
+turn check failed: 2

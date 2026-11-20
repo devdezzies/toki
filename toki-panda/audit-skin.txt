@@ -1,0 +1,47 @@
+check() passed
+skin: 13 parts · toki: 47 planar, 0 framed, 0 dynamic · build 1.5 s
+clearance: 0 problems
+clearance apart: 0 problems
+terminals: 0 ends not on a mount
+loose ends: 0
+screen folds: 0
+support: 0 unsupported solids · 0 hanging tubes · 0 sunk pairs
+depth order: 0 problems
+through in mid-flight: 0 pairs
+self-overlap: 0 chunks whose outline crosses itself on screen
+wobble: 0 smoothed profiles whose slope turns between its ends
+saddles off their host apart: 0
+stand-in shapes: 0 items whose recorded shape covers too little of what it draws
+crowding: 0 pairs where a bend or end touches another line on screen
+audit · 0 tubes · 25 solids · 8 items · 1 depth states · 9 overlaps · 9 order rules · 2.7 s
+audit passed
+separation: 0
+unseparated: 0
+cycles: 0
+forced: 0
+swaps: 0
+layers: 0
+rigid: 0
+swept: 0
+posed: 0
+folds: 0
+self: 0
+crowding: 0
+endon: 0
+coverage: 0
+depth: 0
+continuity: 0
+worst tone step 0.25 · worst birth 0.90 px² · worst dot α step 0.010 · worst faded α step 0.000 · merges 0 · outline motion over bound 0.000 px · halving 0 of 400
+order changes: 23 states with swaps · 3246 order states · 720 posed states · 47 planes (tightest margin -0.001) · depth oracle 46 states, 1016 overlapping pairs
+  sweep at 95.400: 5 pairs reorder (arm.L / ear.R; torso.lower / ear.R; muzzle / ear.R; ear.R / head)
+  sweep at 90.000: 4 pairs reorder (ear.R / torso.upper; arm.L / torso.upper; torso.lower / arm.L; torso.lower / ear.R)
+  sweep at 98.400: 4 pairs reorder (muzzle / torso.upper; shoulder.L / ear.R; shoulder.L / head; shoulder.L / torso.upper)
+  sweep at 244.500: 4 pairs reorder (muzzle / ear.L; muzzle / shoulder.R; muzzle / arm.R; muzzle / head)
+  sweep at 86.400: 3 pairs reorder (leg.L / torso.upper; torso.lower / leg.L; torso.lower / shoulder.R)
+  sweep at 123.900: 3 pairs reorder (leg.L / shoulder.R; arm.L / shoulder.R; torso.lower / shoulder.R)
+  sweep at 171.900: 3 pairs reorder (muzzle / shoulder.R; shoulder.L / shoulder.R; shoulder.R / torso.upper)
+  sweep at 180.000: 3 pairs reorder (leg.L / arm.R; arm.L / arm.R; torso.lower / arm.R)
+  sweep at 183.600: 3 pairs reorder (muzzle / arm.R; shoulder.L / arm.R; arm.R / torso.upper)
+  sweep at 183.900: 3 pairs reorder (leg.L / leg.R; arm.L / leg.R; torso.lower / leg.R)
+turn audit · 1376.61 s
+turn audit passed

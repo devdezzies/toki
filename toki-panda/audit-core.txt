@@ -1,0 +1,47 @@
+check() passed
+core: 178 parts · toki: 2286 planar, 5664 framed, 28 dynamic · build 2.8 s
+clearance: 0 problems
+clearance apart: 0 problems
+terminals: 0 ends not on a mount
+loose ends: 0
+screen folds: 0
+support: 0 unsupported solids · 0 hanging tubes · 0 sunk pairs
+depth order: 0 problems
+through in mid-flight: 0 pairs
+self-overlap: 0 chunks whose outline crosses itself on screen
+wobble: 0 smoothed profiles whose slope turns between its ends
+saddles off their host apart: 0
+stand-in shapes: 0 items whose recorded shape covers too little of what it draws
+crowding: 0 pairs where a bend or end touches another line on screen
+audit · 22 tubes · 160 solids · 8 items · 1 depth states · 9 overlaps · 9 order rules · 2.7 s
+audit passed
+separation: 0
+unseparated: 0
+cycles: 0
+forced: 0
+swaps: 0
+layers: 0
+rigid: 0
+swept: 0
+posed: 0
+folds: 0
+self: 0
+crowding: 0
+endon: 0
+coverage: 0
+depth: 0
+continuity: 0
+worst tone step 0.25 · worst birth 1.39 px² · worst dot α step 0.010 · worst faded α step 0.031 · merges 0 · outline motion over bound 0.000 px · halving 0 of 800
+order changes: 635 states with swaps · 5361 order states · 1611 posed states · 2286 planes (tightest margin 0.000) · depth oracle 85 states, 65335 overlapping pairs
+  sweep at 45.300: 1930 pairs reorder (c08.chip / c11.rocker; frame.foot.0 / c11.rocker; frame.floor / c11.rocker; frame.post.Rb / c11.rocker)
+  apart-orbit at 225.000: 1722 pairs reorder (frame.grille.0 / frame.clip.sp.L; frame.grille.0 / c07.rim.b; frame.grille.1 / frame.clip.sp.L; frame.grille.1 / frame.clip.sp.R)
+  apart-orbit at 272.000: 1371 pairs reorder (frame.upright.L / frame.headplate; frame.upright.L / frame.eyearm; frame.upright.L / frame.socket; frame.upright.L / frame.micseat)
+  apart-orbit at 359.000: 1280 pairs reorder (frame.beam.rear.R / frame.panel.top; frame.beam.rear.R / frame.clip.rear; frame.beam.rear.R / frame.clip.board2; frame.beam.rear.R / c11.body)
+  sweep at 15.000: 1184 pairs reorder (W9.shell.b / W9:0; W9.shell.b / W9:1; c07.strip / W2.shell.b; c07.strip / W2:1)
+  apart-orbit at 13.000: 1180 pairs reorder (frame.beam.mid.b / c10.board.02; frame.beam.mid.b / c10.board.11; frame.beam.mid.b / c10.hdr.t.spare; frame.beam.mid.b / c01.hdr.b)
+  sweep at 225.300: 1156 pairs reorder (frame.clip.side.a / c02.lens.barrel; frame.foot.0 / c02.fpc; frame.foot.0 / c02.lens.barrel; frame.floor / c02.fpc)
+  sweep at 255.300: 1001 pairs reorder (frame.beam.front.L / frame.grille.0; frame.beam.front.L / frame.grille.1; frame.beam.front.L / frame.grille.2; frame.beam.front.L / frame.bracket)
+  close at 1.083: 937 pairs reorder (frame.beam.rear.L / frame.panel.sw.R; frame.beam.rear.L / frame.panel.top; frame.beam.rear.L / frame.rail.R; frame.beam.rear.L / frame.clip.rear)
+  apart-orbit at 45.500: 935 pairs reorder (c08.chip / c11.rocker; frame.foot.0 / c11.rocker; frame.floor / c11.rocker; frame.post.Rb / c11.rocker)
+turn audit · 677.19 s
+turn audit passed

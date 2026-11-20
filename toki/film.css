@@ -1,0 +1,26 @@
+/* The walkthrough film (toki-film.html, spec 9.8): the stage alone, full-bleed at 1920×1080, with cinematic
+   subtitles, chapter cards and title cards. No tool chrome. Frame-exact: no CSS motion (film.js fades in JS). */
+.tk-film *,.tk-film *::before,.tk-film *::after{transition:none!important;animation:none!important}
+.tk-film .tk-app{grid-template-columns:minmax(0,1fr)}
+.tk-film .tk-side,.tk-film .tk-side-toggle,.tk-film .tk-ov{display:none!important}
+.tk-film .toki-stage{cursor:default}
+.tk-film .toki-stage:focus-visible{outline:none}
+.tk-film .tk-view{background:radial-gradient(ellipse 75% 70% at 50% 46%,#1d2325 0%,#121516 55%,#070808 100%)}
+.tk-film .toki-stage>svg.iso-svg:first-child{opacity:.55}
+/* subtitles: lower third, larger, on a soft plate */
+.tk-film .tk-sub{bottom:86px;max-width:1240px;padding:14px 28px 16px;border-radius:14px;gap:18px;background:rgba(6,8,8,.62);backdrop-filter:blur(6px);box-shadow:0 10px 40px rgba(0,0,0,.35)}
+.tk-film .tk-sub-text,.tk-film .tk-sub[data-who="narrator"] .tk-sub-text{font:500 34px/1.38 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#f2f5f4;font-style:normal;letter-spacing:.005em}
+.tk-film .tk-sub[data-who="child"] .tk-sub-text{font-style:italic}
+.tk-film .tk-sub-who{font:600 17px/1.9 ui-monospace,"Cascadia Mono",Consolas,monospace;color:#7fd8c8;letter-spacing:.14em}
+.tk-film .tk-sub[data-who="child"] .tk-sub-who{color:#ffb38a}
+/* chapter card: top left */
+.tk-film-chapter{position:absolute;left:96px;top:78px;display:flex;align-items:baseline;gap:20px;opacity:0;pointer-events:none}
+.tk-film-chapter .n{font:600 22px/1 ui-monospace,"Cascadia Mono",Consolas,monospace;color:#7fd8c8;letter-spacing:.12em}
+.tk-film-chapter .t{font:600 46px/1.1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#f2f5f4;letter-spacing:-.01em}
+.tk-film-chapter::after{content:"";position:absolute;left:0;top:64px;width:72px;height:3px;border-radius:2px;background:#7fd8c8}
+/* title card: left third, over the turning plush */
+.tk-film-card{position:absolute;left:120px;top:50%;transform:translateY(-50%);max-width:620px;opacity:0;pointer-events:none}
+.tk-film-card h1{margin:0;font:700 148px/0.95 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#f4f7f6;letter-spacing:-.04em}
+.tk-film-card p{white-space:pre-line;margin:26px 0 0;font:500 32px/1.35 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#aebdb9}
+.tk-film-card::before{content:"";display:block;width:96px;height:6px;border-radius:3px;background:#7fd8c8;margin-bottom:34px}
+.tk-film-black{position:absolute;inset:0;background:#000;opacity:1;pointer-events:none}
